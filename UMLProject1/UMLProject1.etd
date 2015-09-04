@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE XMI SYSTEM "/home/au6usto/.netbeans/8.0.2/.uml/config/UML_2.0EMBT.dtd"> --><XMI xmlns:UML="omg.org/UML/1.4" xmi.version="2.0"> <XMI.header> <XMI.metamodel xmi.name="UML" xmi.version="1.4"/> <XMI.documentation> <XMI.exporter> Embarcadero's Describe </XMI.exporter> <XMI.exporterVersion> 6.0 </XMI.exporterVersion> </XMI.documentation> </XMI.header> <XMI.content> <UML:Project xmi.id="DCE.BB92DE8F-CC54-BB7C-478A-1229291A6FCA" mode="Implementation" defaultLanguage="Java" projVersion="6.1.4.837" name="UMLProject1"><UML:Element.ownedElement>
+<UML:Class xmi.id="DCE.68CE9F9B-8E29-05FB-C3A0-40C65E7DF987" name="Alumno" owner="DCE.BB92DE8F-CC54-BB7C-478A-1229291A6FCA"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Operation xmi.id="DCE.CB0AAFF2-0E18-FA11-4EC3-7837C7468E69" name="Alumno" isConstructor="true" owner="DCE.68CE9F9B-8E29-05FB-C3A0-40C65E7DF987"><UML:Element.presentation>
+</UML:Element.presentation></UML:Operation>
+<UML:Attribute xmi.id="DCE.E9ADB3AB-997A-A83A-F190-3AD75B18C9E1" visibility="private" name="dni" type="DCE.B4A721F8-8FFF-AC55-66E8-66F03ABBCD50" owner="DCE.68CE9F9B-8E29-05FB-C3A0-40C65E7DF987" supplierDependency="DCE.15CFDE3E-DA25-1ADF-F4CE-909423E9D102" clientDependency="DCE.8E728AC8-7BF8-46EA-4E2C-0318BE5E4853"><UML:Element.presentation>
+</UML:Element.presentation><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.5E49505D-0123-C053-B5EB-23466E3BEE10"/></UML:TypedElement.multiplicity><UML:Attribute.default>
+<UML:Expression xmi.id="DCE.19B208DA-D8A8-7562-E8FD-CF91AB4FCAA0"/></UML:Attribute.default></UML:Attribute>
+<UML:Realization xmi.id="DCE.15CFDE3E-DA25-1ADF-F4CE-909423E9D102" owner="DCE.68CE9F9B-8E29-05FB-C3A0-40C65E7DF987" client="DCE.B9952E99-4630-D0C0-FA18-D58809F8CF4B" supplier="DCE.E9ADB3AB-997A-A83A-F190-3AD75B18C9E1"/>
+<UML:Operation xmi.id="DCE.B9952E99-4630-D0C0-FA18-D58809F8CF4B" name="getDni" isConstructor="false" clientDependency="DCE.15CFDE3E-DA25-1ADF-F4CE-909423E9D102" owner="DCE.68CE9F9B-8E29-05FB-C3A0-40C65E7DF987"><UML:Element.ownedElement>
+<UML:Parameter xmi.id="DCE.C5F83A98-9C4F-3CE5-F0B4-5611D3DD2E70" type="DCE.B4A721F8-8FFF-AC55-66E8-66F03ABBCD50" direction="result" owner="DCE.B9952E99-4630-D0C0-FA18-D58809F8CF4B"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.EFC1A3FA-E1B4-7282-08DA-5F969999C48B"/></UML:TypedElement.multiplicity></UML:Parameter></UML:Element.ownedElement><UML:Element.presentation>
+</UML:Element.presentation></UML:Operation>
+<UML:Realization xmi.id="DCE.8E728AC8-7BF8-46EA-4E2C-0318BE5E4853" owner="DCE.68CE9F9B-8E29-05FB-C3A0-40C65E7DF987" client="DCE.E9ADB3AB-997A-A83A-F190-3AD75B18C9E1" supplier="DCE.42D5BA0D-0C9D-888F-FA11-8288C0FABDDA"/>
+<UML:Operation xmi.id="DCE.42D5BA0D-0C9D-888F-FA11-8288C0FABDDA" name="setDni" isConstructor="false" supplierDependency="DCE.8E728AC8-7BF8-46EA-4E2C-0318BE5E4853" owner="DCE.68CE9F9B-8E29-05FB-C3A0-40C65E7DF987"><UML:Element.ownedElement>
+<UML:Parameter xmi.id="DCE.9A6CA816-DCF6-D1AB-C20B-C39C75A20FCF" type="DCE.CEA22F4A-5DBE-5AC4-1DDA-5A01122DBF4B" direction="result" owner="DCE.42D5BA0D-0C9D-888F-FA11-8288C0FABDDA"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.51675845-31C7-7B0A-A8D0-B80D50519604"/></UML:TypedElement.multiplicity></UML:Parameter>
+<UML:Parameter xmi.id="DCE.AA5C0514-8453-D64F-1A59-47C466ADFFB8" type="DCE.B4A721F8-8FFF-AC55-66E8-66F03ABBCD50" name="val" owner="DCE.42D5BA0D-0C9D-888F-FA11-8288C0FABDDA"><UML:TypedElement.multiplicity>
+<UML:Multiplicity xmi.id="DCE.2E5FF639-6549-0D9B-5104-71B4B66A65C5"/></UML:TypedElement.multiplicity></UML:Parameter></UML:Element.ownedElement><UML:Element.presentation>
+</UML:Element.presentation></UML:Operation></UML:Element.ownedElement></UML:Class>
+<UML:DataType xmi.id="DCE.B4A721F8-8FFF-AC55-66E8-66F03ABBCD50" name="int" owner="DCE.BB92DE8F-CC54-BB7C-478A-1229291A6FCA"/>
+<UML:DataType xmi.id="DCE.CEA22F4A-5DBE-5AC4-1DDA-5A01122DBF4B" name="void" owner="DCE.BB92DE8F-CC54-BB7C-478A-1229291A6FCA"/></UML:Element.ownedElement></UML:Project></XMI.content> </XMI>
