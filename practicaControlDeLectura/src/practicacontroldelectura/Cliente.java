@@ -73,6 +73,15 @@ public class Cliente {
         this.telefono = telefono;
         this.email = email;
     }
+    public Cliente(int id, String nombre, String apellido, String email) {
+        this.id = id;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.direccion = "no";
+        this.fecha = "1900-1-1";
+        this.telefono = "no";
+        this.email = email;
+    }
 
     @Override
     public String toString() {
