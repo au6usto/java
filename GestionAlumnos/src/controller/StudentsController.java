@@ -18,8 +18,8 @@ import views.*;
  */
 public class StudentsController implements ActionListener {
 
-    private final StudentFormView form;
-    private final StudentView studentView;
+    private StudentFormView form;
+    private StudentView studentView;
     private DB db = new DB();
 
     public StudentsController(StudentView studentView, DB db) {
