@@ -64,7 +64,7 @@ public class DB {
             sql = "DELETE FROM `orders` WHERE id = ?";
             ps = connection.prepareStatement(sql);
             ps.setInt(1, id);
-            ps.executeUpdate(sql);
+            ps.executeUpdate();
         } catch (Exception e) {
             System.err.println(e);
         }

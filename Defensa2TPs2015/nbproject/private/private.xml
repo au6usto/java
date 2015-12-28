@@ -5,10 +5,10 @@
         <group>
             <file>file:/home/au6usto/NetBeansProjects/Defensa2TPs2015/src/controller/Main.java</file>
             <file>file:/home/au6usto/NetBeansProjects/Defensa2TPs2015/src/views/OrdersView.java</file>
-            <file>file:/home/au6usto/NetBeansProjects/Defensa2TPs2015/src/controller/OrdersController.java</file>
-            <file>file:/home/au6usto/NetBeansProjects/Defensa2TPs2015/src/model/DB.java</file>
-            <file>file:/home/au6usto/NetBeansProjects/Defensa2TPs2015/src/model/Order.java</file>
             <file>file:/home/au6usto/NetBeansProjects/Defensa2TPs2015/src/views/OrderFormView.java</file>
+            <file>file:/home/au6usto/NetBeansProjects/Defensa2TPs2015/src/controller/OrdersController.java</file>
+            <file>file:/home/au6usto/NetBeansProjects/Defensa2TPs2015/src/model/Order.java</file>
+            <file>file:/home/au6usto/NetBeansProjects/Defensa2TPs2015/src/model/DB.java</file>
         </group>
     </open-files>
 </project-private>
